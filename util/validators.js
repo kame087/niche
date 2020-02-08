@@ -24,7 +24,7 @@ module.exports.validateRegisterInput = (
 
   return {
     errors,
-    valid: Object.keys(errors).length < 1
+    valid: Object.keys(errors).length < 1 // returns true if no errors found
   };
 };
 
